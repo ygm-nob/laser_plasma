@@ -5,20 +5,20 @@
 python は ver.3．
 
 * インストール方法
-phython3は、/usr/loca/bin/python3 にインストールされているとしている．\\
- \> which python3\\
-で示されるPATHが1行目と一致していなければ、その出力に書き換える．\\
-PATHの通ったところに保存し、\\
- \> chmod +x fft.py\\
-で実行許可を与える．\\
+phython3は、/usr/loca/bin/python3 にインストールされているとしている．
+> which python3
+で示されるPATHが1行目と一致していなければ、その出力に書き換える．
+PATHの通ったところに保存し、
+> chmod +x fft.py
+で実行許可を与える．
 
-実行時に、パッケージのインストールを要求されたら、\\
- \> pip3 install numpy\\
- \> pip3 install argparse \\
+実行時に、パッケージのインストールを要求されたら、
+> pip3 install numpy
+> pip3 install argparse 
 で、インストールすること． numpy や argparse は初期にはインストールされていない．\\
 
 * 使い方
- \> fft.py -h\\
+> fft.py -h
 で簡単な使い方の help が表示される
 optional arguments:
   -h, --help     show this help message and exit
